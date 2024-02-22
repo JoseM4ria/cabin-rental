@@ -1,0 +1,26 @@
+body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+.bg-info {
+    background-color: rgb(58, 58, 58) !important;
+}
+.btn-danger, .btn-info{
+    background-color: rgba(240, 100, 0, 0.814)!important;
+}
+.text-primary{
+    color: rgba(240, 100, 0, 0.814)!important;
+}
+.textopequeno {
+    font-size: small;
+}
+p.trunc-3l{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
